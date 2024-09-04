@@ -1,0 +1,80 @@
+Declarations
+	-redeclare not allowed
+		
+		int m = 10;
+		String = "WOrd Word";
+	
+	while
+		int m=10;
+		m=45;//allowed to change
+		int m = 45; //not allowed
+	
+data types:
+	int
+	long = 362423746027807L
+	byte
+	
+	float = 6.7f
+	double = 89.5f
+	
+	String = "fed";	
+	char = 'a';
+	
+	boolean
+	
+ArithmeticOperation
+	m=5
+	n=10
+	m+n //15
+	n-m //5
+	n/m //2 // quotient
+	n%m //0 // Remainder
+	m*n //50
+
+condition operator
+	&&	//Both condition is true
+	||	//either this condition or that condition is true
+	%
+	== //both condition are true 
+condition 
+	if,else if,else
+	switch 
+	
+	syntax
+	
+		boolean electricity = true;
+		
+		if(electricity) 
+			System.out.println("HAS ELECTRICITY");
+		else	
+			System.out.println("HAS NOT ELECTRICITY");
+	
+	 
+loop
+	
+	boolean f = true ;
+	int n = 1;
+	while(n >= 100){
+		System.out.println(n);
+		n += 1;
+	}
+	
+	
+	
+Array
+
+prime
+fibnocci
+rev no
+sum of all didgit
+armstrong
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

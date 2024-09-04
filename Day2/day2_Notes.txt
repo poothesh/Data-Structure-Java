@@ -1,0 +1,75 @@
+loop
+	
+	for(i=1;i<=n;i++) //avg coder ,slow 
+	for(i=1;i<=n/2;i++) //avg coder ,faster
+	
+time complexity (discuss later when come to searching,sorting)
+	best time -omega
+	avg time - teta
+	worst time - O
+	
+	n=20
+	for(i=1;i<=n;i++) //it execute 20 times
+		worst case = O(n)
+		best case = execute once
+		avg case = 
+		
+	for(i=1;i<=n/2;i++)//it execute 10 times,it execute half of above
+	
+	number = 6872641
+	while (number > 0) {
+            int digit = number % 10;
+            reversed = reversed * 10 + digit;
+            number /= 10;
+        //the code going to execute only the how many digits were there
+        //O(1)
+    }
+    
+    n=100; 
+	for(i=0;i<=n;i=i+5){
+		//the code going to run only 20 times coz "i = i+5"
+		//O(n/5) 
+	}
+	
+	for(i=0;i<=n;i=i-5){
+		//the code going to run infinite times coz "i = i-5", i = -4, i = -9, i = -14.................
+		//O(Infiite) 
+	}
+	
+	n=10
+	for(i=n;i>=0;i=i-1){
+		//run 11 times 
+		//O(n)
+	}
+	
+	n=100
+	for(i=1;i<=n;i=i*2){
+		//run 7 times,it double the i value 1,2,4,8,16,32,64 
+		//O(log n)
+	}
+	
+	int n=0;
+		for(int i=0;i<=n;i=i+i/2) {
+			System.out.println(i);
+		//run infinite times
+		}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
