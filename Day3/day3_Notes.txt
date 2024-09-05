@@ -1,0 +1,93 @@
+Array
+	
+	  //if we created a array it stores default value 0
+	  //0 were replace by the value what we give
+	  
+	  //last value its n-1
+	  //number of index is a space for the array
+	  //for storing more values we can use loop
+	  
+	  
+	  	robot	som		som		priya    ravi			//values
+	  	  0		 1		 2		  3		  4				//index
+Types
+1	Arrays of Objects
+	
+	
+	Array Literal:
+		String[] arr = {"Hello", "World", "Java"}; // Declares, initializes, and assigns values
+	
+	Initialization:
+		arr = new String[3]; // Creates an array of 3 Strings
+	
+	Declaration
+		String[] arr; // Array of Strings
+		
+		
+	Declaration and Initialization:
+	
+	String std[] = new String[5];
+	std[0]="robot";
+	std[4]="ram";
+	std[1]="som";
+	std[2]="priya";
+	std[3]="ravi";
+	
+	robot	som		som		priya    ravi			//values
+	  0		 1		 2		  3		  4				//index
+	  
+	  
+	  
+2	  Single-Dimensional Arrays:
+	  	
+	  		Declaration:
+	  		
+	  			int[] arr; // Preferred way
+				int arr[]; // Also valid
+	  
+	 		Initialization:
+
+				arr = new int[5]; // Creates an array of 5 integers
+	  
+	  int[] arr = new int[5]; // Declares and initializes an array of 5 integers
+	  
+	  
+	  		Array Literal:
+
+				int[] arr = {1, 2, 3, 4, 5}; // Declares, initializes, and assigns values
+	   
+	   
+3	   Multi-Dimensional Arrays:
+	   		
+	   		Declaration:
+
+				int[][] arr; // Preferred way
+				int arr[][]; // Also valid
+				int[] arr[]; // Also valid
+
+			Initialization:
+
+				arr = new int[3][4]; // Creates a 3x4 array
+
+		int[][] arr = new int[3][4]; // Declares and initializes a 3x4 array
+
+			Array Literal:
+				
+				int[][] arr = {
+   				{1, 2, 3},
+    			{4, 5, 6},
+    			{7, 8, 9}
+			}; // Declares, initializes, and assigns values
+
+
+
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
